@@ -24,7 +24,7 @@ jobs:
           pip install requests beautifulsoup4 pandas
 
       - name: Run WAFA scraper
-        run: python your_script_name.py  # <-- Replace with your script filename
+        run: python wafa-autoscrapper.ipynb  # <-- Replace with your script filename
 
       - name: Commit and push changes
         run: |
