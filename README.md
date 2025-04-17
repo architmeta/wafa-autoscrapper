@@ -1,6 +1,6 @@
-# WAFA News Scraper
+## WAFA News Scraper
 
-The auto-scraper pulls articles from the Palestine Authority mouthpiece [WAFA English website](https://english.wafa.ps) and add them into a CSV file. The objective of this tool is to provide journalists monitoring the ongoing genocide and the illegal occupation in Palestine by automatically annotates the headlines.
+The auto-scraper pulls articles from the Palestine Authority mouthpiece [WAFA English website](https://english.wafa.ps) and add them into a CSV file. The objective of this tool is to provide journalists monitoring the ongoing genocide and the illegal occupation in Palestine by automatically annotates the headlines. The code has been gene rated using Perlexity AI and DeepSeek. 
 ---
 
 ## Features
@@ -90,13 +90,12 @@ pip install requests beautifulsoup4 pandas
 ## Limitations
 
 - **Keyword-based detection** may miss or misclassify some events; review and expand keyword lists as needed.
-- **
 
 ---
 
 ## License
 
-This project is released under the MIT License.
+This project is released under the GNU GENERAL PUBLIC LICENSE.
 
 ---
 
@@ -108,5 +107,3 @@ For questions, suggestions, or contributions, please open an issue or contact th
 
 *This tool is intended for journalistic, research, and human rights documentation purposes.*
 
-Sources
-[1] 0416-WAFA-AS.txt https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/31033019/134a66f8-36a2-4db7-89b1-f18cc78e209f/0416-WAFA-AS.txt
