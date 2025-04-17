@@ -1,6 +1,6 @@
 ## WAFA News Scraper
 
-The auto-scraper pulls articles from the Palestine Authority mouthpiece [WAFA English website](https://english.wafa.ps) and add them into a CSV file. The objective of this tool is to provide journalists monitoring the ongoing genocide and the illegal occupation in Palestine by automatically annotates the headlines. The code has been gene rated using Perlexity AI and DeepSeek. 
+- The auto-scraper pulls articles from the Palestine Authority mouthpiece [WAFA English website](https://english.wafa.ps) and add them into a CSV file. The objective of this tool is to provide journalists monitoring the ongoing genocide and the illegal occupation in Palestine by automatically annotates the headlines. The code has been gene rated using Perlexity AI and DeepSeek. 
 ---
 
 ## Features
