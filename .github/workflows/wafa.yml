@@ -42,7 +42,7 @@ jobs:
 
       - name: Pull remote changes
         run: |
-          git pull origin master --rebase
+          git pull origin master --rebase || git rebase --abort
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
