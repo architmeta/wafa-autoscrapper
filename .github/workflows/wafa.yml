@@ -40,6 +40,10 @@ jobs:
           git commit -m "Automated update: latest WAFA news" || echo "No changes to commit"
         continue-on-error: true
 
+      - name: Pull remote changes
+        run: |
+          git pull origin master --rebase
+
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
