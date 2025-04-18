@@ -32,15 +32,14 @@ jobs:
       - name: Run WAFA scraper
         run: python wafa-autoscrapper.py
 
-      - name: Commit and push changes
+      - name: Commit and prepare changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Automated update: latest WAFA news" || echo "No changes to commit"
-        continue-on-error: true
+          git diff-index --quiet HEAD || git commit -m "Automated update: latest WAFA news"
 
-      - name: Pull remote changes
+      - name: Pull remote changes to resolve conflicts
         run: |
           git pull origin master --rebase || git rebase --abort
 
