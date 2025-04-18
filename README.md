@@ -49,13 +49,6 @@ This tool automatically scrapes news headlines from [WAFA English website](https
 
 ---
 
-### Visualization
-
-- **Tables:** Summary counts for Location, Attack, and Events
-- **Charts:** Minimal, monotone (green) pie and bar charts for fast insights
-
----
-
 ### Customization
 
 To add or change keywords for annotation, edit the `GAZA_TERMS`, `WEST_BANK_TERMS`, `ATTACK_KEYWORDS`, or `EVENT_KEYWORDS` lists in the script.
