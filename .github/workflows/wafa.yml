@@ -41,7 +41,7 @@ jobs:
 
       - name: Pull remote changes to resolve conflicts
         run: |
-          git pull origin master --rebase || git rebase --abort
+          git pull origin main --rebase || git rebase --abort
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
