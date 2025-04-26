@@ -10,7 +10,6 @@ This tool automatically scrapes news headlines from [WAFA English website](https
 - **Exports to CSV:** Date, Time, Headline, URL, Location, Attack, Events
 - **Auto-annotates** with keywords for location, attack type, and human rights event category
 - **Deduplicates** and merges with existing CSVs
-- **Includes scripts for summary tables and visual charts** for quick analysis
 
 ---
 
@@ -18,7 +17,7 @@ This tool automatically scrapes news headlines from [WAFA English website](https
 
 1. **Install requirements:**
    ```bash
-   pip install requests beautifulsoup4 pandas matplotlib
+   pip install requests beautifulsoup4 pandas
    ```
 
 2. **Run the scraper:**
