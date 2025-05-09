@@ -1,6 +1,6 @@
 ## WAFA News Scraper
 
-This tool automatically scrapes news headlines from [WAFA English website](https://english.wafa.ps) — the official Palestinian Authority news agency — and annotates them by location, attack type, and event category. The output is a CSV file designed for journalists and researchers monitoring the ongoing situation in Palestine. The project includes ready-to-use scripts for generating summary tables and charts.
+This tool automatically scrapes news headlines every four hours from [WAFA English website](https://english.wafa.ps) — the official Palestinian Authority news agency — and annotates them by location, attack type, and event category. The output is a CSV file designed for journalists and researchers monitoring the ongoing situation in Palestine. The project includes ready-to-use scripts for generating summary tables and charts.
 
 ---
 
