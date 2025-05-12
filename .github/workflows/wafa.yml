@@ -1,41 +1,50 @@
-name: Gaza Chart Daily Update
+name: WAFA Scraper
 
 on:
+  workflow_dispatch:  # Allows manual trigger
   schedule:
-    # Runs every day at 11:00 AM EDT (15:00 UTC)
-    - cron: '0 15 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # Runs every 6 hours (UTC)
 
-concurrency:
-  group: gaza-chart-autoupdate
-  cancel-in-progress: true
+permissions:
+  contents: write
 
 jobs:
-  run-notebook:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repository content
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
-          pip install --upgrade pip
-          pip install pandas matplotlib requests nbconvert
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas jupyter nbconvert
 
-      - name: Execute Jupyter notebook
-        run: |
-          jupyter nbconvert --to notebook --execute --inplace gaza_chart.ipynb
+      - name: Convert notebook to Python script
+        run: jupyter nbconvert --to script wafa-autoscrapper.ipynb
 
-      - name: Commit and push updated files
+      - name: Run WAFA scraper
+        run: python wafa-autoscrapper.py
+
+      - name: Commit and prepare changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add gaza_daily.csv gaza_death_toll_chart.png gaza_chart.ipynb
-          git commit -m "Auto-update Gaza chart and CSV [skip ci]" || echo "No changes to commit"
-          git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Automated update: latest WAFA news"
+
+      - name: Pull remote changes to resolve conflicts
+        run: |
+          git pull origin main --rebase || git rebase --abort
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  # Ensure the correct branch is specified
