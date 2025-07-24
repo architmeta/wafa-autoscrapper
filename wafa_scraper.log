@@ -5840,3 +5840,19 @@
 2025-07-24 06:36:21,068 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
 2025-07-24 06:36:21,068 - WARNING - No data to save!
 2025-07-24 06:36:21,068 - ERROR - Failed to save data to CSV
+2025-07-24 12:48:54,186 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-07-24 12:48:55,515 - INFO - Found 55 articles with selector div.post-wrap
+2025-07-24 12:48:55,597 - INFO - Page 1: Extracted 55 articles
+2025-07-24 12:48:55,597 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-07-24 12:48:56,745 - INFO - Found 55 articles with selector div.post-wrap
+2025-07-24 12:48:56,814 - INFO - Page 2: Extracted 55 articles
+2025-07-24 12:48:56,814 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-07-24 12:48:57,972 - INFO - Found 55 articles with selector div.post-wrap
+2025-07-24 12:48:58,039 - INFO - Page 3: Extracted 55 articles
+2025-07-24 12:48:58,039 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-07-24 12:48:59,190 - INFO - Found 55 articles with selector div.post-wrap
+2025-07-24 12:48:59,258 - INFO - Page 4: Extracted 55 articles
+2025-07-24 12:48:59,259 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-07-24 12:49:00,416 - INFO - Found 55 articles with selector div.post-wrap
+2025-07-24 12:49:00,489 - INFO - Page 5: Extracted 55 articles
+2025-07-24 12:49:05,393 - INFO - Saved 5988 articles to wafa_latest_news.csv
