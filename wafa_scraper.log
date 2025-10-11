@@ -10852,3 +10852,15 @@
 2025-10-11 06:27:16,959 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=5
 2025-10-11 06:27:16,959 - WARNING - No data to save!
 2025-10-11 06:27:16,959 - ERROR - Failed to save data to CSV
+2025-10-11 12:36:59,758 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-10-11 12:37:00,013 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=1: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-10-11 12:37:00,014 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-10-11 12:37:00,106 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=2: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-10-11 12:37:00,107 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-10-11 12:37:00,200 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=3: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-10-11 12:37:00,201 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-10-11 12:37:00,293 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=4: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-10-11 12:37:00,293 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-10-11 12:37:00,366 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-10-11 12:37:00,367 - WARNING - No data to save!
+2025-10-11 12:37:00,367 - ERROR - Failed to save data to CSV
