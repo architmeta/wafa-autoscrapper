@@ -13283,3 +13283,19 @@
 2025-11-18 12:45:03,894 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: 500 Server Error: Internal Server Error for url: https://english.wafa.ps/Pages/LastNews?pageNumber=5
 2025-11-18 12:45:03,895 - WARNING - No data to save!
 2025-11-18 12:45:03,895 - ERROR - Failed to save data to CSV
+2025-11-18 18:32:34,708 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-11-18 18:32:35,214 - INFO - Found 45 articles with selector div.post-wrap
+2025-11-18 18:32:35,283 - INFO - Page 1: Extracted 45 articles
+2025-11-18 18:32:35,283 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-11-18 18:32:36,504 - INFO - Found 45 articles with selector div.post-wrap
+2025-11-18 18:32:36,558 - INFO - Page 2: Extracted 45 articles
+2025-11-18 18:32:36,558 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-11-18 18:32:37,787 - INFO - Found 45 articles with selector div.post-wrap
+2025-11-18 18:32:37,841 - INFO - Page 3: Extracted 45 articles
+2025-11-18 18:32:37,842 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-11-18 18:32:39,817 - INFO - Found 45 articles with selector div.post-wrap
+2025-11-18 18:32:39,870 - INFO - Page 4: Extracted 45 articles
+2025-11-18 18:32:39,870 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-11-18 18:32:41,478 - INFO - Found 45 articles with selector div.post-wrap
+2025-11-18 18:32:41,533 - INFO - Page 5: Extracted 45 articles
+2025-11-18 18:32:51,755 - INFO - Saved 13158 articles to wafa_latest_news.csv
