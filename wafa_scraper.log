@@ -15930,3 +15930,15 @@
 2025-12-30 06:36:24,166 - INFO - Found 44 articles with selector div.post-wrap
 2025-12-30 06:36:24,219 - INFO - Page 5: Extracted 44 articles
 2025-12-30 06:36:36,346 - INFO - Saved 15488 articles to wafa_latest_news.csv
+2025-12-30 12:49:39,623 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-12-30 12:49:39,898 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=1: 521 Server Error: <none> for url: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2025-12-30 12:49:39,899 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-12-30 12:49:40,145 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=2: 521 Server Error: <none> for url: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2025-12-30 12:49:40,146 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-12-30 12:49:40,384 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=3: 521 Server Error: <none> for url: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2025-12-30 12:49:40,385 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-12-30 12:49:40,625 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=4: 521 Server Error: <none> for url: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2025-12-30 12:49:40,626 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-12-30 12:49:40,864 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: 521 Server Error: <none> for url: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2025-12-30 12:49:40,864 - WARNING - No data to save!
+2025-12-30 12:49:40,865 - ERROR - Failed to save data to CSV
