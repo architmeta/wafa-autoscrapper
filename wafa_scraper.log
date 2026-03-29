@@ -21615,3 +21615,19 @@
 2026-03-29 13:00:47,961 - INFO - Found 54 articles with selector div.post-wrap
 2026-03-29 13:00:48,025 - INFO - Page 5: Extracted 54 articles
 2026-03-29 13:01:04,499 - INFO - Saved 20889 articles to wafa_latest_news.csv
+2026-03-29 18:47:11,497 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2026-03-29 18:47:12,802 - INFO - Found 61 articles with selector div.post-wrap
+2026-03-29 18:47:12,889 - INFO - Page 1: Extracted 61 articles
+2026-03-29 18:47:12,889 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2026-03-29 18:47:14,096 - INFO - Found 61 articles with selector div.post-wrap
+2026-03-29 18:47:14,168 - INFO - Page 2: Extracted 61 articles
+2026-03-29 18:47:14,168 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2026-03-29 18:47:15,358 - INFO - Found 61 articles with selector div.post-wrap
+2026-03-29 18:47:15,430 - INFO - Page 3: Extracted 61 articles
+2026-03-29 18:47:15,430 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2026-03-29 18:47:16,609 - INFO - Found 61 articles with selector div.post-wrap
+2026-03-29 18:47:16,681 - INFO - Page 4: Extracted 61 articles
+2026-03-29 18:47:16,681 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2026-03-29 18:47:18,671 - INFO - Found 61 articles with selector div.post-wrap
+2026-03-29 18:47:18,743 - INFO - Page 5: Extracted 61 articles
+2026-03-29 18:47:34,743 - INFO - Saved 20923 articles to wafa_latest_news.csv
