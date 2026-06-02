@@ -25723,3 +25723,15 @@
 2026-06-02 04:10:16,151 - INFO - Found 56 articles with selector div.post-wrap
 2026-06-02 04:10:16,217 - INFO - Page 5: Extracted 56 articles
 2026-06-02 04:10:35,652 - INFO - Saved 24992 articles to wafa_latest_news.csv
+2026-06-02 10:27:02,230 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2026-06-02 10:27:17,350 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=1: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
+2026-06-02 10:27:17,351 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2026-06-02 10:27:32,394 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=2: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
+2026-06-02 10:27:32,395 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2026-06-02 10:27:47,438 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=3: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
+2026-06-02 10:27:47,438 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2026-06-02 10:28:02,483 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=4: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
+2026-06-02 10:28:02,483 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2026-06-02 10:28:17,527 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: HTTPSConnectionPool(host='english.wafa.ps', port=443): Read timed out. (read timeout=15)
+2026-06-02 10:28:17,528 - WARNING - No data to save!
+2026-06-02 10:28:17,528 - ERROR - Failed to save data to CSV
