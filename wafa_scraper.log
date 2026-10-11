@@ -33709,3 +33709,19 @@
 2026-10-11 04:37:00,414 - ERROR - Failed to fetch webpage https://english.wafa.ps/Pages/LastNews?pageNumber=5: 403 Client Error: Forbidden for url: https://english.wafa.ps/Pages/LastNews?pageNumber=5
 2026-10-11 04:37:00,415 - WARNING - No data to save!
 2026-10-11 04:37:00,415 - ERROR - Failed to save data to CSV
+2026-10-11 12:17:26,491 - INFO - Scraping page 1: https://english.wafa.ps/Pages/LastNews?pageNumber=1
+2026-10-11 12:17:27,845 - INFO - Found 54 articles with selector div.post-wrap
+2026-10-11 12:17:27,926 - INFO - Page 1: Extracted 54 articles
+2026-10-11 12:17:27,926 - INFO - Scraping page 2: https://english.wafa.ps/Pages/LastNews?pageNumber=2
+2026-10-11 12:17:28,728 - INFO - Found 54 articles with selector div.post-wrap
+2026-10-11 12:17:28,794 - INFO - Page 2: Extracted 54 articles
+2026-10-11 12:17:28,794 - INFO - Scraping page 3: https://english.wafa.ps/Pages/LastNews?pageNumber=3
+2026-10-11 12:17:29,579 - INFO - Found 54 articles with selector div.post-wrap
+2026-10-11 12:17:29,644 - INFO - Page 3: Extracted 54 articles
+2026-10-11 12:17:29,644 - INFO - Scraping page 4: https://english.wafa.ps/Pages/LastNews?pageNumber=4
+2026-10-11 12:17:30,525 - INFO - Found 54 articles with selector div.post-wrap
+2026-10-11 12:17:30,591 - INFO - Page 4: Extracted 54 articles
+2026-10-11 12:17:30,591 - INFO - Scraping page 5: https://english.wafa.ps/Pages/LastNews?pageNumber=5
+2026-10-11 12:17:31,994 - INFO - Found 54 articles with selector div.post-wrap
+2026-10-11 12:17:32,059 - INFO - Page 5: Extracted 54 articles
+2026-10-11 12:17:58,030 - INFO - Saved 33046 articles to wafa_latest_news.csv
